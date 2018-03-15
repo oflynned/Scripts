@@ -23,8 +23,8 @@ def generate_email_body():
 
 
 def send_email():
-    recipient = "oflynned@tcd.ie"
-    sender = "<email>@gmail.com"
+    recipient = "<recipient>"
+    sender = "<sender>@gmail.com"
     password = "<password>"
 
     message = MIMEMultipart('alternative')
